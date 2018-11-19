@@ -1,0 +1,285 @@
+@import 'less/bootstrap.css';
+
+
+/***********************************************************************************************/
+/* UTILITY */
+/***********************************************************************************************/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 100%;
+}
+
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+ul,
+ol,
+li {
+	font-size: 18px;
+	font-weight: 400;
+	font-display: auto;
+}
+
+input,
+textarea,
+select {
+	outline: none;
+}
+
+html, body {
+	height: 100%;
+}
+
+/***********************************************************************************************/
+/* UTILITY CLASSES */
+/***********************************************************************************************/
+.align-center {
+	text-align: center;
+}
+
+.align-left {
+	text-align: left;
+}
+
+.align-right {
+	text-align: right;
+}
+
+.inline li {
+	display: inline-block;
+}
+
+.b1 {
+	border: 1px solid #23FF00;
+}
+
+.b2 {
+	border: 1px solid #fff;
+}
+.space1 {
+	height: 1em;
+}
+.space2 {
+	height: 2em;
+}
+.space3 {
+	height: 3em;
+}
+.space4 {
+	height: 4em;
+}
+
+/***********************************************************************************************/
+/* GENERAL TYPOGRAPHY STYLES */
+/***********************************************************************************************/
+body {
+	font: 300 14px/24px 'lato', sans-serif;
+}
+
+h1 {
+	color: black;
+	font-family: 'lato', sans-serif;
+	font-size: 40px;
+	font-weight: 200;
+	margin: 20px 0 10px 0;
+	line-height: 43px;
+	padding: 20px 0;
+}
+
+@font-face {
+	font-family: 'icomoon';
+	src:url('fonts/icomoon.eot?-gaw2q4');
+	src:url('fonts/icomoon.eot?#iefix-gaw2q4') format('embedded-opentype'),
+		url('fonts/icomoon.woff?-gaw2q4') format('woff'),
+		url('fonts/icomoon.ttf?-gaw2q4') format('truetype'),
+		url('fonts/icomoon.svg?-gaw2q4#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-mail:before {
+	content: "\e603";
+}
+.icon-house:before {
+	content: "\e604";
+}
+.icon-search:before {
+	content: "\e605";
+}
+.icon-twitter:before {
+	content: "\e606";
+}
+.icon-facebook:before {
+	content: "\e600";
+}
+.icon-instagram:before {
+	content: "\e601";
+}
+.icon-vk:before {
+	content: "\e602";
+}
+
+/***********************************************************************************************/
+/* UI */
+/***********************************************************************************************/
+span {
+	color: black;
+	font-weight: bold;
+}
+
+/***********************************************************************************************/
+/* LAYOUT */
+/***********************************************************************************************/
+.header-1 {
+}
+
+.header-1 p {
+	padding: 25px;
+}
+
+.header-2 p {
+}
+
+.logo {
+	height: 100px;
+	position: absolute;
+	top: 45px;
+	z-index: 300;
+	border-radius: 50px;
+}
+
+.main-menu {
+	margin-right: 0px;
+}
+
+section {
+	margin-top: 6.1em;
+}
+
+.slider a img {
+		width: 100%;
+}
+
+.desc p {
+	font-size: 18px;
+	line-height: 24px;
+	padding: 0 30px;
+	margin-bottom: 10px;
+}
+
+.services {
+	background-color: #FAFE83;
+}
+
+.fast-btn {
+	margin-bottom: 30px;
+}
+
+.fast-btn a figure img {
+	display: block;
+	width: 100%;
+}
+
+.fast-btn a figure p {
+	color: 	white;
+	font-size: 30px;
+	font-weight: 500;
+	left: -2px;
+	line-height: 30px;
+	padding: 10% 15%;
+	position: absolute;
+	text-shadow: 0px 2px 2px rgba(0,0,0,.8);
+	top: 35px;
+}
+
+footer {
+	background-color:white;
+}
+
+.social-icons li a {
+	color: 	#008080;
+	font-size: 30px;
+	margin-left:6px;
+	text-decoration: none;
+}
+
+.icon-facebook:hover {
+	color: #3b5998;
+}
+
+.icon-vk:hover {
+	color: #45668e;
+}
+
+.icon-instagram:hover {
+	color: #bf8360;
+}
+
+.icon-mail:hover {
+	color: #4d95f9;
+}
+
+.phones {
+	float: right;
+	font-weight: 400;
+	color: #008080;
+}
+
+.phones div {
+	display: inline-block;
+	margin: 10px 15px;
+	padding-top: 10px;
+}
